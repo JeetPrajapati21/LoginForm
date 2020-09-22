@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scal=1.0">
+	<title>Login Form</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<div id="main">
+		<!-- Login form heading -->
+		<div>
+			<h2>Login Form</h2>
+		</div>
+		<!-- User inputs -->
+		<div class="login">
+			<!-- Email-id area -->
+			<div>
+				<input type="email" name="email" placeholder="Email id" id="email" class="inpt">
+				<span id="error1"></span>
+			</div>
+			<!-- Password area -->
+			<div>
+				<input type="password" name="password" placeholder="Password" id="pwd" class="inpt">
+				<span id="error2"></span>
+			</div>
+			<!-- Submit button -->
+			<div>
+				<input type="submit" value="Login" class="btn" onclick="login()">
+			</div>
+		</div>
+	</div>
+	<!-- Loader -->
+	<div id="loader"></div>
+	<!-- Javascript -->
+	<script src="JS/script.js"></script>
+</body>
+</html>
